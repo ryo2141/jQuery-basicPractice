@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>課題１</title>
+		<script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>
+		<script type="text/javascript" src="./js/kadai1.js"></script>
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+	</head>
+
+	<body>
+		
+		<table id="tblForm1">
+			<thead>
+				<tr>
+					<th name="check[]"></th>
+					<th name="line[]">列A</th>
+					<th name="line[]">列B</th>
+					<th name="line[]">列C</th>
+					<th name="line[]">列D</th>
+				</tr>
+				</thead>
+			<tbody>
+				<tr>
+					<td><input name="check[]" type="checkbox" /></td>
+					<td><input name="line[]" type="text" /></td>
+					<td><input name="line[]" type="text" /></td>
+					<td><input name="line[]" type="text" /></td>
+					<td><input name="line[]" type="text" /></td>
+				</tr>
+			</tbody>
+		</table>
+		<div class="buttonArea">
+			<input id="btnAdd1" type="button" value="行追加" />
+		</div>
+		<div class="buttonArea">
+			<input id="btnAdd2" type="button" value="全選択" />
+			<input id="btnAdd3" type="button" value="全解除" />
+		</div>
+	</body>
+	
+</html>
